@@ -3,6 +3,8 @@
 <html>
 <head>
 	<title>Atividade Mapa</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet"> 
 	<meta charset="utf-8">
 </head>
 <body>

@@ -14,13 +14,13 @@ Pagina feita por mim e obrigado por seguir.
 
 Exercise prompted by the faculty "Unicesumar" to test skills in php language.
 
-Webpage creat for educational purposes.
+Webpage created for educational purposes.
 
 I was asked to create a website in php language with the following conditions:
 
-" Your website shoud have its own logo, a horizontal menu with sub or a vertical menu as sub-item of the horizontal menu, a placeholder for content and footer.
-In addition to this structure, yous site must contain resources: Forms, array, function, repetition, repetition loops, conditional or selection ties, in addition to include or requere resources.
-Remember that we must carry out the treatment of the URL to open the pages on the same page, or open the pages within the 'index.php' file. "
+" Your website should have its own logo, a horizontal menu with sub or a vertical menu as sub-item of the horizontal menu, a placeholder for content and footer.
+In addition to this structure, yous site must contain the folowing resources: Forms, array, function, repetition, repetition loops, conditional or selection ties, in addition to include or requere resources.
+Remember that we must execute the treatment URL to open the pages on the same page, or open the pages within the 'index.php' file. "
 
 More info https://github.com/worldvini
 

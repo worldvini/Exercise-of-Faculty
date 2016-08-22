@@ -1,44 +1,35 @@
 	<footer>
-		<div class="row">
-			<div class="col-ms-3">
+		<div class="row">	
+			<div class="col-ms-4">
 				<h5>
-					<div>
-						<ul>
-							<?php 
-								menuHtml();
-							 ?>
-						</ul>
-					</div>
+					<ul>
+						<?php 
+							menuHtml();
+						 ?>
+					</ul>
 				</h5>			
 			</div>
-			<div class="col-ms-3">
+			<div class="col-ms-4">
 				<h5>
-					<div>
-						<ul>
-							<?php 
-								menuPhp();
-							 ?>
-						</ul>
-					</div>
+					<ul>
+						<?php 
+							menuPhp();
+						 ?>
+					</ul>
 				</h5>			
 			</div>
-			<div class="col-ms-3">
+			<div class="col-ms-4">
 				<h5>
-					<div>
-						<ul>
-							<?php 
-								menuCss();
-							 ?>
-						</ul>
-					</div>
+					<ul>
+						<?php 
+							menuCss();
+						 ?>
+					</ul>
 				</h5>			
-			</div>
-
-					
-		</div>
-		
+			</div>					
+		</div>		
 	</footer>
+</div>	
 
-</div>
 </body>
 </html>

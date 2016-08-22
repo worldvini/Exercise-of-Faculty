@@ -2,8 +2,8 @@
 <?php include "topo.php" ; ?>
 
 	<section>
-		<div>
-			<p>logo</p>
+		<div class="banner">
+			<img src="img/banner.png">
 		</div>
 		<div>
 			<?php 
