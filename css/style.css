@@ -5,31 +5,39 @@
 	margin: 0px;
 	border: 0px;
 }
+/*todo o site ou multi locais*/
 body{
 	background-color: #f0f0f0;
 	font-family: 'Arimo', sans-serif, verdana;	
 }
 .container{
-	width: 100%;
-	max-width: 1200px;
 	background-color: #f0f0f0;
 	display: flex;
 	flex-direction: column;
 	margin: 0px auto;
 }
+.container , 
+.menutop   , 
+.row{
+	width: 100%;
+	max-width: 1200px;
+}
+.col-ms-4 h5 ul li:hover , 
+.menutop nav ul li:hover{
+	background-color: #fab807;	
+	border-radius: 15px;
+}
 /*topo*/
 .menutop {
 	text-align: center;	
-	background-color: #111111;	
+	background-color: #111111;
+	position: fixed;	
 }
 .menutop nav ul li{
 	display: inline-block;
 	padding: 15px 30px;
 }
-.menutop nav ul li:hover{
-	background-color: #fab807;	
-	border-radius: 15px;
-}
+
 .menutop nav ul li a{	
 	text-decoration: none;
 	color: #ffffff;
@@ -40,19 +48,36 @@ body{
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-color: #000;
-}
+	margin-top: 50px;
+	}
 .banner img{
 	padding: 0px 15px;
 }
+.conteudo{
+	text-align: justify;
+	background-color: #ffffff;
+	padding: 20px;
+	line-height: 2em;
+}
+.conteudo h2{
+	line-height: 3em;
+}
+.conteudo ul li{
+	margin-left: 35px;
+}
+.conteudo img{
+	float: left;
+	padding: 25px;
+	width: 95%;
+	height: 95%;
+}
 /*rodape*/
 .row{
-	width: 100%;
-	max-width: 1200px;
 	display: flex;
 	justify-content: space-around;
+	background-color: #111111;
 }
 .col-ms-4{		
-	background-color: #111111;
 	width: 33.33%;
 	text-align: center;
 }
@@ -60,10 +85,7 @@ body{
 	list-style: none;	
 	padding: 10px 10px;
 }
-.col-ms-4 h5 ul li:hover{	
-	background-color: #fab807;
-	border-radius: 15px;
-}
+
 .col-ms-4 h5 ul li a{
 	text-decoration: none;
 	color: #fff;
