@@ -22,7 +22,7 @@ body{
 	width: 100%;
 	max-width: 1200px;
 }
-.col-ms-4 h5 ul li:hover , 
+.col-ms-4 ul li:hover ,
 .menutop nav ul li:hover{
 	background-color: #fab807;	
 	border-radius: 15px;
@@ -36,11 +36,12 @@ body{
 .menutop nav ul li{
 	display: inline-block;
 	padding: 15px 30px;
+	width: 80px;
 }
-
+.menumid nav ul li a ,
 .menutop nav ul li a{	
 	text-decoration: none;
-	color: #ffffff;
+	color: #fff;
 }
 /*corpo*/
 .banner{	
@@ -53,23 +54,87 @@ body{
 .banner img{
 	padding: 0px 15px;
 }
+/*conteudo*/
 .conteudo{
 	text-align: justify;
-	background-color: #ffffff;
+	background-color: #fff;
 	padding: 20px;
 	line-height: 2em;
 }
 .conteudo h2{
-	line-height: 3em;
+	padding: 5px;
+	margin: 5px;
 }
 .conteudo ul li{
-	margin-left: 35px;
+	margin-left: 15px;
 }
-.conteudo img{
+.conteudo figure{
+	text-align: center;
+	border: 1px solid;
+}
+.conteudo figure figcaption{
+	color: #000;
+	font-size: 0.9em;
+}
+.conteudoimg{
 	float: left;
 	padding: 25px;
 	width: 95%;
 	height: 95%;
+}
+.conteudo ,
+.centralconteudo{
+	color: #5a5a5a;
+}
+/*navegação individual da pagina*/
+.pagename{
+	font-size: 1.1em;
+	background-color: #000;
+	color: #fab807;
+	padding: 5px 0px 5px 10px;
+}
+.centralconteudo{
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+}
+.menumid{
+	width: 18%;
+	background-color: #fab807;
+}
+.menumid ul li{
+	padding: 5px;
+	list-style: none;
+}
+.menumid nav ul li a{
+	color: #000;
+}
+/*Formulario*/
+.formulario{
+	text-align: center;	
+	background-color: #fab807;
+	padding: 10px;
+}
+.formulario h4{
+	font-size: 2.1em;
+}
+.formulario input ,
+.formulario textarea{
+	width: 350px;
+	height: 45px;
+	margin: 5px;
+}
+.formulario textarea{
+	height: 150px;
+}
+.botao{	
+	border-radius: 20px;	
+	font-size: 1.1em;
+}
+.botao:hover {
+	background-color: #000;
+	color: #fff;
+	font-size: 1em;
 }
 /*rodape*/
 .row{
@@ -81,12 +146,18 @@ body{
 	width: 33.33%;
 	text-align: center;
 }
-.col-ms-4 h5 ul li{
+.col-ms-4 h5{
+	font-size: 1.3em;
+	background-color: #000;
+	color: #fab807;
+	padding-top: 4px;
+}
+.col-ms-4 ul li{
 	list-style: none;	
 	padding: 10px 10px;
 }
 
-.col-ms-4 h5 ul li a{
+.col-ms-4 ul li a{
 	text-decoration: none;
 	color: #fff;
 }

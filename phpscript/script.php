@@ -11,25 +11,25 @@
 	}
 	function menuHtml(){
 		$menu1 = array(
-				"Home"=> "index.php?pagina=html&pag=homehtml",
-				"O que é Html"=> "index.php?pagina=html&pag=oqueehtml",
+				"Introdução"=> "index.php?pagina=html&pag=homehtml",
+				"O esqueleto da Web"=> "index.php?pagina=html&pag=oqueehtml",
 				"Principais Elementos"=> "index.php?pagina=html&pag=prielementoshtml"
 				);
 		menu($menu1);
 	}
 	function menuPhp(){
 		$menu2 = array(
-				"Home"=> "index.php?pagina=php&pag=homephp",
-				"O que é Php"=> "index.php?pagina=php&pag=oqueephp",
+				"Introdução"=> "index.php?pagina=php&pag=homephp",
+				"Programe agora"=> "index.php?pagina=php&pag=oqueephp",
 				"Principais Elementos"=> "index.php?pagina=php&pag=prielementosphp"
 				);
 		menu($menu2);
 	}
 	function menuCss(){
 		$menu3 = array(
-				"Home"=>"index.php?pagina=css&pag=homecss",
-				"O que é Css"=> "index.php?pagina=css&pag=oqueecss",
-				"Principais Elementos"=> "index.php?pagina=css&pag=prielementocss"
+				"Introdução"=>"index.php?pagina=css&pag=homecss",
+				"Torne tudo mais bonito"=> "index.php?pagina=css&pag=oqueecss",
+				"Principais Elementos"=> "index.php?pagina=css&pag=prielementoscss"
 			);
 		menu($menu3);
 	}

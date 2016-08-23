@@ -1,0 +1,7 @@
+<h2>Introdução ao php</h2>
+<p>A PHP foi concebida para exclusivamente desenvolver sistemas para a internet e tem uma forte ligação com a linguagem de apresentação chamada HTML. <br> Por isso, para apresentar um pouco melhor a linguagem em PHP, é bom fazer uma pequena comparação com a conhecida HTML.</p>
+<p>A primeira diferença é a linguagem HTML, não é de programação, serve apenas para apresentar no navegador, de forma maquiada, as páginas criadas pelas diversas linguagens.</p>
+<p>É com a linguagem HTML que são formatados os textos, contruídas as tabelas, apresentadas as imagens e tudo mais que se refere ao visual.</p>
+<p>Mas para o nosso interesse, a principal diferença é que o código HTML é pelo servidor (provedor) e, ao final da interpretação, o servidor PHP gera uma página como se fosse originalmente escrita na linguagem HTML, e a envia para o navegador.</p>
+<p>O usuário final (CLIENTE) nunca enxerga o código-fonte PHP, o que ele vai ver é apenas o resultado gerado no navegador. Mas você que é o programador criará o código PHP no computador servidor.</p>
+<p>Este conceito de cliente servidor é muito importante para o aprendizado de PHP, então eu recomendo que você o domine antes de continuar.</p>

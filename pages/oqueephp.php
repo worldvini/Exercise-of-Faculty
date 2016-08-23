@@ -1,0 +1,4 @@
+<h2>Iniciando com a Linguagem PHP</h2>
+<p>PHP é uma linguagem de programação verdadeira, com todas as estruturas de programação, mas tem uma forte ligação com o delimitadores ou marcadores de campos HTML, mais conhecidos pelo nome original oriundo do inglês, TAG HTML.</p>
+<h2>Os delimitadores (tags)</h2>
+<p>O interpretador do servidor indentifica um código PHp por meio de dois delimitadores que indicam o início e o fim do programa ou trecho de programa. Esses delimitadores são o "<"?php para o início e o ?">" para representar o fim. Porém, para o inicio, é possível utilizar a abreviação "<"?, sendo que para isto é necessário habilitar a opção short-tags na configuração do servidor PHP.</p>

@@ -5,6 +5,8 @@
 	<title>Atividade Mapa</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet"> 
+	<link rel="shortcut icon" type="image/x-icon" href="imagens/faviconwv.png" />
+	<link rel="icon" type="image/png" href="img/faviconwv.png" />
 	<meta charset="utf-8">
 </head>
 <body>
