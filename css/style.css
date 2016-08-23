@@ -161,3 +161,14 @@ body{
 	text-decoration: none;
 	color: #fff;
 }
+/*Status Envio*/
+.recado{
+	font-size: 1.5em;
+	line-height: 2em;
+	color: #fab807;
+	text-align: center;
+	background-color: #fff;	
+	padding: 50px;
+	width: 600px;
+	height: 250px;
+}

@@ -3,7 +3,7 @@
 </div>
 <div class="formulario">
 	<h4>Deixe seu Recado</h4>
-	<form action="pages/obrigado.php" method="GET" target="_blank">
+	<form action="obrigado.php" method="GET" target="_blank">
 		<p><input type="text" placeholder="NOME" name="nome"></p>
 		<p><input type="text" placeholder="E-MAIL" name="email"></p>
 		<p><input type="text" placeholder="TELEFONE" name="telefone"></p>
